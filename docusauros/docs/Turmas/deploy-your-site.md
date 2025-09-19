@@ -2,12 +2,37 @@
 sidebar_position: 5
 ---
 
-# Deploy your site
+#  C++ 
 
-Docusaurus is a **static-site-generator** (also called **[Jamstack](https://jamstack.org/)**).
+Instalar MSYS2
 
-It builds your site as simple **static HTML, JavaScript and CSS files**.
+https://eduatec-my.sharepoint.com/:u:/g/personal/joao_vilares_0001476_edu_atec_pt/Ec42fco8-TFNtd25RLEl3QIBok4kTK4kGtbpy_F6T0BPmA?e=3hvmzG
 
+https://www.msys2.org/
+
+pacman -Syu
+pacman -S mingw-w64-ucrt-x86_64-gcc
+Adicione C:\msys64\ucrt64\bin ao PATH.
+
+
+
+Adicione ao PATH do Windows:
+
+Caminho típico: C:\msys64\ucrt64\bin
+
+Painel de Controle → Sistema → Configurações avançadas → Variáveis de ambiente → Path → Novo → cole esse caminho.
+![alt text](image-1.png)
+Abra um novo PowerShell e teste:
+
+g++ --version
+No VS Code, instale a extensão C/C++.
+![alt text](image.png)
+
+ g++ .\hello_world.cpp
+
+ .\ hello.exe
+
+ 
 ## Build your site
 
 Build your site **for production**:
