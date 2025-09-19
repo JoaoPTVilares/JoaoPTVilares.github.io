@@ -50,9 +50,9 @@ const config: Config = {
           type: 'docSidebar',
           sidebarId: 'tutorialSidebar',
           position: 'left',
-          label: 'Tutorial',
+          label: 'UCTts',
         },
-        { to: '/blog', label: 'Blog', position: 'left' },
+        { to: '/Tutorials', label: 'Tutorials', position: 'left' },
         {
           href: 'https://github.com/JoaoPTVilares/JoaoPTVilares.github.io',
           label: 'GitHub',
