@@ -6,7 +6,7 @@ const config: Config = {
   // URL pública do site
   url: 'https://joaoptvilares.github.io',
   // Como é um user site, o baseUrl é /
-  baseUrl: '/docusauros',
+  baseUrl: '/',
 
   // Configuração GitHub Pages
   organizationName: 'JoaoPTVilares', // o teu username no GitHub
