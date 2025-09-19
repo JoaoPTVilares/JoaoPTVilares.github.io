@@ -63,7 +63,7 @@ const config: Config = {
     footer: {
       style: 'dark',
       links: [],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc.`,
+      copyright: `Copyright © ${new Date().getFullYear()} João Pedro Vilares`,
     },
   },
 };
