@@ -52,7 +52,7 @@ const config: Config = {
           position: 'left',
           label: 'UCTts',
         },
-        { to: '/Tutorials', label: 'Tutorials', position: 'left' },
+          // Removed broken Tutorials link
         {
           href: 'https://github.com/JoaoPTVilares/JoaoPTVilares.github.io',
           label: 'GitHub',
